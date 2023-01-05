@@ -1,7 +1,7 @@
 // Rename this file to settings.go
 // Uncomment all lines
 
-// package settings
+package settings
 
 // var DB_USERNAME = "ilya"
 // var DB_PASSWD = "pass"
