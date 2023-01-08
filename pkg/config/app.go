@@ -12,9 +12,8 @@ var (
 )
 
 func ConnectDB() {
-
 	var db_credentials = fmt.Sprintf(
-		"%s:%s/%s?charset=utf8&parseTime=True&loc=Local",
+		"%s:%s@tcp(localhost:3306)/%s?charset=utf8&parseTime=True&loc=Local",
 		settings.DB_USERNAME,
 		settings.DB_PASSWD,
 		settings.DB_TABLENAME)
