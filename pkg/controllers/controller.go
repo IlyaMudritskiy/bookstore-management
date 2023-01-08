@@ -72,10 +72,10 @@ func UpdateBook(writer http.ResponseWriter, request *http.Request) {
 		bookDetails.Name = updateBook.Name
 	}
 	if updateBook.Author != "" {
-		bookDetails.Name = updateBook.Author
+		bookDetails.Author = updateBook.Author
 	}
 	if updateBook.Publication != "" {
-		bookDetails.Name = updateBook.Publication
+		bookDetails.Publication = updateBook.Publication
 	}
 
 	db.Save(&bookDetails)
