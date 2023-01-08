@@ -21,3 +21,6 @@
 go.work
 
 settings.go
+
+*/.DS_Store
+.DS_Store
